@@ -1,8 +1,3 @@
-# Project 2: Handwritten Digit Recognition (MNIST)
-
-# Problem Statement:Handwritten text varies widely. AI can help read such inputs,
-# useful for education tech.
-
 import tensorflow as tf
 from tensorflow.keras import layers, models
 from tensorflow.keras.datasets import mnist
@@ -52,4 +47,5 @@ plt.title("Training History")
 plt.xlabel("Epochs")
 plt.ylabel("Accuracy")
 plt.legend()
+
 plt.show()
